@@ -7,8 +7,6 @@
 name: Lint Code Base
 
 on:
-  schedule:
-    - cron:  '45 5,17 * * *'
   push:
     branches: [ main ]
   pull_request:
